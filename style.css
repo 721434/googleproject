@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87)
+   
+}
+
+#header 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+#button 
+{
+    font-size: 13px;
+}
+
+.apps 
+{
+   box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+
+
+body
+{
+    height: 100vh;
+}
+
+.center {
+
+    display: flex;
+    flex-direction : column ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input 
+{
+    background-image: url("image/googlevocal.jpg");
+    background-repeat: no-repeat;   
+    background-position: 97%;
+    background-size: 3em;
+    padding: 0 ;
+    width: 500px ;
+    height: 40px; 
+    border-radius: 25px;
+    cursor : text;
+}
+
+.button1
+{
+    margin: 11px 4px ;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer  ;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+
+}
+
+
+.button2
+{
+    margin: 11px 4px ;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer  ;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
